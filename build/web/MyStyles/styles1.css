@@ -1,0 +1,171 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.header{
+    margin: auto;
+    width:500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul, ol{
+    list-style: none;
+    
+    
+}
+
+.nav li a{
+    background-color: #4B4F4B;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    
+}
+
+
+.nav li a:hover{
+    background-color: #000000; 
+}
+
+.nav > li{
+    float: left;
+    position: relative;
+    left: 500px;
+    z-index:1;
+   
+}
+
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    
+    
+}
+
+.navbar{
+    background-color: #4B4F4B;
+     
+    
+}
+
+.nav li:hover > ul{
+    display: block;
+    
+    
+}
+
+.slider{
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+        
+    animation: cambio 20s infinite alternate;
+    
+}
+
+.slider li{
+    width: 100%;
+    list-style: none;  
+}
+
+.slider img{
+    float: left;
+    position: relative;
+    left: 500px;
+    top: 70px;
+}
+
+.texto1{
+    position: relative;
+    top: 60px;
+}
+.texto2{
+    position: relative;
+    top: 120px;
+    
+}
+
+.masvot{
+    
+    float: left;
+    position: relative;
+    left: 500px;
+    top: 90px; 
+}
+
+.masvot ul{
+    display: flex;
+    position: relative;
+    top: 70px;
+    left: 50px;
+    
+}
+.texto3{
+    position: relative;
+    right: 300px;
+    top: 300px;
+    
+}
+
+.masvot2{
+    
+    float: left;
+    position: relative;
+    right: 180px;
+    top: 260px; 
+    
+}
+
+.masvot2 ul{
+    display: flex;
+    position: relative;
+    top: 70px;
+    left: 50px;
+    
+}
+
+footer{
+     width: 100%;
+     height: 200px;
+     background-color: #4B4F4B;
+     color: white;
+     margin-top: 800px; 
+   
+}
+
+.btn{
+    background-color: green;
+}
+
+.card {
+    float: left;
+    position: relative;
+    top: 90px; 
+    left: 450px;
+    
+}
+
+
+
+@keyframes cambio{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+    
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+    
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+    
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
