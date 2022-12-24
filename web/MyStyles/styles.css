@@ -1,0 +1,16 @@
+body{
+    background: url(../img/FoundLogin2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.card{
+    background-color: #4B4F4B;
+    color: #FFFFFF;
+}
+
+.avatar{
+    border-radius: 50%;
+}
